@@ -1,6 +1,33 @@
-#real-alert {
-    color: rgb(226, 43, 43);
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif; /* Change font family */
+    background-color: #f8f9fa; /* Light gray background color */
 }
-#test-only{
-    color: blue;
+
+.card {
+    background-color: #dc3545; /* Red background color for the card */
+    color: #ffffff; /* White text color */
+}
+
+.card-title {
+    color: #ffffff; /* White text color for the card title */
+}
+
+.form-label {
+    color: #dc3545; /* Red text color for form labels */
+}
+
+.form-control {
+    border-color: #dc3545; /* Red border color for form controls */
+}
+
+.btn-primary {
+    background-color: #dc3545; /* Red background color for the submit button */
+    border-color: #dc3545; /* Red border color for the submit button */
+}
+
+.btn-primary:hover {
+    background-color: #c82333; /* Darker red background color on hover */
+    border-color: #bd2130; /* Darker red border color on hover */
 }
