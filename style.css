@@ -1,33 +1,33 @@
 /* styles.css */
 
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f8f9fa;
+    font-family: 'Verdana', sans-serif; /* Change font family */
+    background-color: #f8f9fa; /* Light gray background color */
 }
 
 .card {
-    background-color: #dc3545;
-    color: #ffffff;
+    background-color: #28a745; /* Green background color for the card */
+    color: #ffffff; /* White text color */
 }
 
 .card-title {
-    color: #ffffff;
+    color: #ffffff; /* White text color for the card title */
 }
 
 .form-label {
-    color: #dc3545;
+    color: #a72828; /* Green text color for form labels */
 }
 
 .form-control {
-    border-color: #dc3545;
+    border-color: #70a728; /* Green border color for form controls */
 }
 
 .btn-primary {
-    background-color: #dc3545;
-    border-color: #dc3545;
+    background-color: #28a745; /* Green background color for the submit button */
+    border-color: #28a745; /* Green border color for the submit button */
 }
 
 .btn-primary:hover {
-    background-color: #c82333;
-    border-color: #bd2130;
+    background-color: #218838; /* Darker green background color on hover */
+    border-color: #1e7e34; /* Darker green border color on hover */
 }
